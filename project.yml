@@ -1,0 +1,9 @@
+environment: {}
+parameters: {}
+packages:
+  - name: sample
+    functions:
+      - name: api
+        binary: false
+        runtime: 'go:default'
+        web: raw
